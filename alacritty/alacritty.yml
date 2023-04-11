@@ -1,0 +1,106 @@
+env:
+  TERM: alacritty
+
+window:
+  padding:
+    x: 10
+    y: 10
+
+  opacity: 0.3
+
+  startup_mode: Maximized
+  dynamic_title: true
+    
+font:
+  normal:
+    family: FiraCode
+
+    style: Regular
+
+  bold:
+    family: FiraCode
+
+    style: Bold
+
+  italic:
+    family: FiraCode
+
+    style: Italic
+
+  bold_italic:
+    family: monospace
+
+    style: Bold Italic
+
+  # Point size
+  size: 6.0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: '#0D0D0D'
+    foreground: '#c9c9c9'
+
+  # Selection colors
+  selection:
+    text:       CellForeground
+    background: '0x393f4a'
+
+  # Normal colors
+  # 404040 very much grey
+  # 8C8C8C near white
+  # F2F2F2 white
+# normal:
+#   black:   '#0D0D0D'
+#   red:     '#bf2121'
+#   green:   '#5de4c7' #verymuch grey
+#   yellow:  '#c9c9c9'
+#   blue:    '#0e6b0e'
+#   magenta: '#8c8c8c'
+#   cyan:    '#8c8c8c'
+#   white:   '#f2f2f2'
+
+# bright:
+#   black:   '#0D0D0D'
+#   red:     '#bf2121'
+#   green:   '#5de4c7' #verymuch grey
+#   yellow:  '#c9c9c9'
+#   blue:    '#5de4c7'
+#   magenta: '#8c8c8c'
+#   cyan:    '#5de4c7'
+#   white:   '#f2f2f2'
+
+      # -------------- GITHUB THEME
+
+  normal:
+    black:   '#0d1117'
+    red:     '#fa7970'
+    green:   '#7ce38b' #verymuch grey
+    yellow:  '#faa356'
+    blue:    '#77bdfb'
+    magenta: '#cea5fb'
+    cyan:    '#a2d2fb'
+    white:   '#ecf2f8'
+
+  bright:
+    black:   '#0d1117'
+    red:     '#fa7970'
+    green:   '#7ce38b' #verymuch grey
+    yellow:  '#faa356'
+    blue:    '#77bdfb'
+    magenta: '#cea5fb'
+    cyan:    '#a2d2fb'
+    white:   '#ecf2f8'
+
+
+
+
+
+  indexed_colors:
+    - { index: 16, color: '0xd19a66' }
+    - { index: 17, color: '0xf65866' }
